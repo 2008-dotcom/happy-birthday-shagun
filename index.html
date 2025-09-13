@@ -121,20 +121,6 @@
     background: #ffb6c1;
   }
 
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 2000;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    overflow: auto;
-    background: rgba(0,0,0,0.5);
-    justify-content: center;
-    align-items: center;
-  }
-
   .modal-content {
     background: #fff;
     margin: auto;
@@ -240,7 +226,6 @@
 <body>
 <!-- partial:index.partial.html -->
 <!-- A pen by Developer Rahul  -->
-  <script  src="./script.js"></script>
 <div id="overlay" class="overlay" style="display: flex; flex-direction: column; align-items: center;">
   <p style="text-align: center; font-size: 1.8em; margin-bottom: 16px; background: #ffc0cb; padding: 8px 16px; border-radius: 8px; font-weight: bold;">
     The song that reminds me of you ❤️
@@ -275,7 +260,7 @@
 </div>
 
 <div class="paper image">
-<img src="./image1.png" />
+<img src="image1.png" />
 </div>
 
 <div class="paper image">
@@ -368,5 +353,6 @@
     }, 8000);
   });
 </script>
+<script src="./script.js"></script>
 </body>
 </html>
