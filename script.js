@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // --- open modal when user clicks Surprise ---
   if (surpriseButton && modal) {
     surpriseButton.addEventListener('click', () => {
-      modal.style.display = 'block';
+      modal.style.display = 'flex';
     });
   }
 
