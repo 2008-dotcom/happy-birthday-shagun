@@ -71,9 +71,6 @@ class Paper {
     });
   }
 }
-<script>
-  document.body.style.zoom = "75"; // Zoom in
-</script>
 
 document.addEventListener('DOMContentLoaded', function () {
   const papers = Array.from(document.querySelectorAll('.paper'));
